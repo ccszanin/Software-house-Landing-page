@@ -7,56 +7,56 @@ export default function Home() {
   return (
     <body className="flex flex-1 flex-col justify-center">
       {/*Header*/}
-      <header className="w-screen mx-auto max-w-[97.5rem] pt-20 pb-20 flex items-center justify-between absolute left-1/2 transform -translate-x-1/2">
+      <header className="w-screen mx-auto max-w-[97.5rem] pt-20 pb-20 flex items-center justify-between absolute  z-10 left-1/2 transform -translate-x-1/2">
         <Image src={ZionLogo} alt="Logo" />
-        <nav className=" flex items-center justify-center gap-5">
+        <nav className=" flex star justify-center gap-5">
           <a
-            href="/"
-            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap hover:bg-purple-500"
+            href="./"
+            className="text-xl  text-white-500 leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300 "
           >
             Home
           </a>
           <a
-            href="/"
-            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap"
+            href="./"
+            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300"
           >
             Sobre Nós
           </a>
           <a
-            href="/"
-            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap"
+            href="./"
+            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Soluções
           </a>
           <a
-            href="/"
-            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap"
+            href="./"
+            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Ferramentas
           </a>
           <a
-            href="/"
-            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center"
+            href="./"
+            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Portfólio
           </a>
           <a
-            href="/"
-            className="text-xl leading-[130%] px-[1.875rem] uppercase flex items-center whitespace-nowrap"
+            href="./"
+            className="text-xl leading-[130%] px-[1.8rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Depoimentos
           </a>
           <a
-            href="/"
-            className="text-xl leading-[130%] pl-[1.875rem] uppercase flex items-center"
+            href="./"
+            className="text-xl leading-[130%] px-[1.8rem] pl-[1.8rem]  uppercase flex text-center items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300 "
           >
             Contato
           </a>
         </nav>
       </header>
       <main className=" flex flex-col justify-center items-center">
-        <div className=" h-screen relative max-w-[97.5rem] flex items-center justify-center">
-          <h1 className="text-[5.625rem] max-w-[92rem] leading-[150%] uppercase">
+        <div className=" h-screen relative max-w-[97.5rem] flex items-center">
+          <h1 className="text-[5.625rem]  max-w-[92rem] leading-[150%] uppercase">
             <strong className="font-extrabold ">Acelere o seu negócio</strong>{" "}
             com um e-commerce profissional
           </h1>
@@ -67,7 +67,7 @@ export default function Home() {
           className=""
         >
           <Image
-            className="h-[4.25] fixed bottom-[7rem]  right-[6rem] z-[2]"
+            className="h-[4.25] fixed bottom-[7rem]  right-[6rem] z-[2] hover:scale-110 transition duration-300"
             src={Whats}
             alt="buttom-whatsApp"
           />
@@ -77,7 +77,7 @@ export default function Home() {
             Maximize o Potencial do seu Negócio Online
           </p>
           <a href="./" className="Arrow">
-            <Image className=" h-3 w-14 m-[2.375rem]" src={Arrow} alt="Arrow" />
+            <Image className=" h-3 w-14 m-[2.375rem] hover:scale-110 transition duration-300" src={Arrow} alt="Arrow" />
           </a>
         </div>
       </main>
