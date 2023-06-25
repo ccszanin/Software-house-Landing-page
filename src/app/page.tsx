@@ -3,6 +3,18 @@ import ZionLogo from "../assets/logo.svg";
 import Whats from "../assets/buttonwhats.svg";
 import Arrow from "../assets/arrow.svg";
 import ImgSec2 from "../assets/img-bg.svg";
+import { ServiceCard } from "@/components/ServiceCard";
+import Service from "../assets/website.svg";
+import LandinPage from "../assets/landingpage.svg";
+import Ecommerce from "../assets/ecommerce.svg";
+import App from "../assets/app.svg";
+import Manutencao from "../assets/manutencao.svg";
+import Integracao from "../assets/integracao.svg";
+import Vtex from "../assets/vtex.svg";
+import Shopify from "../assets/shopify.svg"
+import Bling from "../assets/bling.svg";
+import MercadoPago from "../assets/mercadopago.svg";
+import Cases from"../assets/cases.svg";
 
 export default function Home() {
   return (
@@ -54,7 +66,7 @@ export default function Home() {
           </a>
         </nav>
       </header>
-      <main className=" w-screen max-w-screen-2xl px-12  flex flex-col justify-center items-center">
+      <main className=" w-full max-w-screen-2xl px-12  flex flex-col justify-center items-center">
         <section
           id="section-1"
           className=" h-screen relative  flex items-center"
@@ -87,7 +99,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <section id="section-2" className="h-screen flex justify-between items-center mx-auto ">
+        <section id="section-2" className="h-screen  flex justify-between items-center mx-auto ">
         <Image
               className="ml-[-6.5rem]"
               src={ImgSec2}
@@ -109,6 +121,68 @@ export default function Home() {
               <span className="whitespace-nowrap"> função e tecnologia.</span>
              
             </strong>
+          </div>
+        </section>
+    <section id="section-3" className="w-full max-w-screen-2xl  flex flex-col justify-center">
+    <h1 className="font-extrabold uppercase text-6xl leading-[130%]  pt-20  ">Soluções</h1>
+    <div className="w-full grid grid-cols-3 grid-rows-2 gap-16 pb-[7.5rem] pt-[7.5rem]">
+    <ServiceCard img={Service} title="Website"text="Criação, codificação e programação de sites e seus respectivos elementos e linguagens." /> 
+    <ServiceCard img={LandinPage} title="Landing Page" text="Uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente. " />
+    <ServiceCard img={Ecommerce} title="E-commerce" text="Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento e integração com a transportadora." />
+    <ServiceCard img={App} title="Aplicativo" text="Software desenvolvido para ser instalado em um dispositivo eletrônico móvel, como um telefone celular, smartphone, smart tv e tablets." />
+    <ServiceCard img={Manutencao} title="Manutenção" text="Precisa alterar ou atualizar o seu site? Conte com a nossa manutenção. " />
+    <ServiceCard img={Integracao} title="Integração" text="Integramos com os principais CRMs, ERPs, sistemas e plataformas de pagamentos digitais, para automatizar seus processos e economizar tempo no fluxo de trabalho. " />
+    </div>
+   </section>
+
+   
+      <section id="section-4" className="h-screen  flex justify-between items-center mx-auto">
+     <div className="flex flex-col items-center">
+      <h1 className="font-extrabold uppercase text-6xl leading-[130%] pt-10 pb-16 items-center justify-center">Ferramentas</h1>
+        <p className="text-[1.563rem] max-w-[58rem] pb-20 text-center ">Utilizamos e indicamos as melhores ferramentas do mercado para potencializar o seu negócio e garantir resultados operacionais. Você não precisará pesquisar inúmeras ferramentas, cuidamos disso pra você!</p>
+       
+      <div className="w-full flex gap-32 pt-items-center justify-center">
+      <Image
+              className=""
+              src={ Vtex}
+              alt="Image"
+            />
+             <Image
+              className=""
+              src={ Shopify}
+              alt="Image"
+            />
+             <Image
+              className=""
+              src={ Bling}
+              alt="Image"
+            />
+             <Image
+              className=""
+              src={ MercadoPago}
+              alt="Image"
+            />
+      </div>
+      </div>
+      </section>
+      <section id="section-5" className="h-screen justify-between items-center mx-auto bg-pink-300">
+      <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10 ">Portfólio</h1>
+      
+        <div className="h-screen flex  mx-auto">
+        
+          <div className="h-screen  mx-auto w-1/2">
+            <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10  ">cases de sucesso</h1>
+            <p className="font-normal leading-[150%] text-[1.563rem] mb-10">
+            Desenvolvemos projetos intuitivos e impactantes que elevam sua presença online. Transformamos sua visão em realidade com designs modernos e funcionais.
+             
+   
+            </p>
+          </div>
+          <Image
+              className="w-1/2 mr-[-12rem]"
+              src={Cases}
+              alt="Image"
+            />
           </div>
         </section>
       </main>
