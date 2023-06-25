@@ -14,7 +14,13 @@ import Vtex from "../assets/vtex.svg";
 import Shopify from "../assets/shopify.svg"
 import Bling from "../assets/bling.svg";
 import MercadoPago from "../assets/mercadopago.svg";
-import Cases from"../assets/cases.svg";
+import Cases from"../assets/cases.png";
+import { Depositions } from "@/components/Depositions";
+import Perfil from "../assets/perfil.svg";
+import Star from "../assets/star.svg";
+import Instagram from "../assets/instagram.svg";
+import Facebook from "../assets/facebook.svg";
+import Linkedin from "../assets/linkedin.svg";
 
 export default function Home() {
   return (
@@ -125,8 +131,8 @@ export default function Home() {
         </section>
     <section id="section-3" className="w-full max-w-screen-2xl  flex flex-col justify-center">
     <h1 className="font-extrabold uppercase text-6xl leading-[130%]  pt-20  ">Soluções</h1>
-    <div className="w-full grid grid-cols-3 grid-rows-2 gap-16 pb-[7.5rem] pt-[7.5rem]">
-    <ServiceCard img={Service} title="Website"text="Criação, codificação e programação de sites e seus respectivos elementos e linguagens." /> 
+    <div className="w-full grid grid-cols-3 grid-rows-2 gap-16 pb-[7.5rem] pt-[7.5rem] ">
+    <ServiceCard img={Service}  title="Website"text="Criação, codificação e programação de sites e seus respectivos elementos e linguagens." /> 
     <ServiceCard img={LandinPage} title="Landing Page" text="Uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente. " />
     <ServiceCard img={Ecommerce} title="E-commerce" text="Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento e integração com a transportadora." />
     <ServiceCard img={App} title="Aplicativo" text="Software desenvolvido para ser instalado em um dispositivo eletrônico móvel, como um telefone celular, smartphone, smart tv e tablets." />
@@ -136,7 +142,7 @@ export default function Home() {
    </section>
 
    
-      <section id="section-4" className="h-screen  flex justify-between items-center mx-auto">
+      <section id="section-4" className="h-screen  flex justify-between items-center mx-auto mb-32">
      <div className="flex flex-col items-center">
       <h1 className="font-extrabold uppercase text-6xl leading-[130%] pt-10 pb-16 items-center justify-center">Ferramentas</h1>
         <p className="text-[1.563rem] max-w-[58rem] pb-20 text-center ">Utilizamos e indicamos as melhores ferramentas do mercado para potencializar o seu negócio e garantir resultados operacionais. Você não precisará pesquisar inúmeras ferramentas, cuidamos disso pra você!</p>
@@ -165,25 +171,74 @@ export default function Home() {
       </div>
       </div>
       </section>
-      <section id="section-5" className="h-screen justify-between items-center mx-auto bg-pink-300">
-      <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10 ">Portfólio</h1>
+      <section id="section-5" className="h-screen  mx-auto ">
+      <h1 className="font-extrabold uppercase text-6xl leading-[130%] pt-[4rem] pb-[8rem]  mb-10 flex items-center jus">Portfólio</h1>
       
-        <div className="h-screen flex  mx-auto">
+        <div className=" flex justify-center  mx-auto">
         
-          <div className="h-screen  mx-auto w-1/2">
-            <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10  ">cases de sucesso</h1>
-            <p className="font-normal leading-[150%] text-[1.563rem] mb-10">
+          <div className=" mx-auto flex-1 ">
+            <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10">cases de sucesso</h1>
+            <p className="font-normal leading-[150%] text-[1.563rem] mb-10 max-w-[34rem]">
             Desenvolvemos projetos intuitivos e impactantes que elevam sua presença online. Transformamos sua visão em realidade com designs modernos e funcionais.
              
    
             </p>
           </div>
           <Image
-              className="w-1/2 mr-[-12rem]"
+              className=" mr-[-9rem] w-[70%]"
               src={Cases}
               alt="Image"
             />
           </div>
+        </section>
+        <section id="section-6" className= "h-full w-full flex flex-col justify-center ">
+        <h1 className="font-extrabold uppercase text-6xl leading-[130%]  pb-12 ">Depoimentos</h1>
+    <div className=" grid grid-cols-3 grid-rows-1 gap-[4rem] pb-[7.5rem] pt-[7.5rem] ">
+    <Depositions img1={Perfil}  title="Danilo"text1="Cliente" img2={Star} text2="Super satisfeito com o trabalho de branding da Zion! A equipe conseguiu captar detalhes importantes da mensagem que queríamos entregar e apresentaram um resultado final assertivo, com criatividade e bom gosto! "/> 
+    <Depositions img1={Perfil}  title="Carlos"text1="Cliente" img2={Star} text2="O trabalho da Zion foi fantástico, pegaram nossa ideia de uma despretensiosa landing page e nos entregaram um belo material, muito além do que esperávamos!"/> 
+    <Depositions img1={Perfil}  title="DM Assessoria"text1="Cliente" img2={Star} text2="Super obrigado pelo trabalho que vocês fizeram com a minha empresa.
+O site eu amei, e vocês são incríveis. Obrigado pela paciência e pelo atendimento. Em meu nome, e no nome da DM Assessoria.     
+Sucesso!"/> 
+    
+    </div>
+        </section>
+        
+        <section id="section-7" className= " w-full flex flex-col justify-center bg-blue-950">
+        <div>
+        <p className="text-[1.5rem] font-bold leading-9">Nas redes sociais</p>
+        <div className="flex gap-8">
+        <Image 
+            width={24} 
+            height={24}
+            className=""
+            src={Instagram}
+            alt="Instagram"
+          />
+          <Image 
+            width={14} 
+            height={14}
+            className=""
+            src={Facebook}
+            alt="Facebook"
+          /> 
+            <Image
+            width={24} 
+            height={24}
+            className=""
+            src={Linkedin}
+            alt="Linkedin"
+          />
+          </div>
+         </div>
+         <div className="w-[355.14px]">
+          <span className="text-white text-[30px] font-medium uppercase leading-10">entre em </span>
+          <span className="text-white text-[30px] font-black uppercase leading-10">contato</span>
+          <span className="text-white text-[30px] font-medium uppercase leading-10"> com a gente</span>
+          </div>
+
+       
+          
+        
         </section>
       </main>
     </body>
