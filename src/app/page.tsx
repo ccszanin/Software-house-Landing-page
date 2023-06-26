@@ -21,6 +21,8 @@ import Star from "../assets/star.svg";
 import Instagram from "../assets/instagram.svg";
 import Facebook from "../assets/facebook.svg";
 import Linkedin from "../assets/linkedin.svg";
+import Telefone from "../assets/telefone.svg";
+import Email from "../assets/email.svg";
 
 export default function Home() {
   return (
@@ -203,10 +205,12 @@ Sucesso!"/>
     </div>
         </section>
         
-        <section id="section-7" className= " w-full flex flex-col justify-center bg-blue-950">
-        <div>
-        <p className="text-[1.5rem] font-bold leading-9">Nas redes sociais</p>
-        <div className="flex gap-8">
+        
+          <footer className="w-full flex h-[400px] mb-24  gap-24">
+        <div className=" w-[300px]  relative ">
+          <div className=" w-full absolute bottom-0">
+          <p className="text-[1.5rem] mb-5 font-bold leading-9 ">Nas redes sociais</p>
+        <div className="flex gap-8 mb-12">
         <Image 
             width={24} 
             height={24}
@@ -229,17 +233,50 @@ Sucesso!"/>
             alt="Linkedin"
           />
           </div>
+          <button className="mb-12 bg-pink-500 rounded-md px-4 uppercase text-xs py-2">Entre em contato</button>
+          <p className="text-[15px] font-normal leading-3 mb-5">©2023 Zion</p>
+          <p className="text-[15px] font-normal leading-3">Todos os direitos reservados</p>
+          </div>
+        
          </div>
-         <div className="w-[355.14px]">
+         <div className=" w-full h-[300px] bg-pink-500 py-9 pl-20">
+          
           <span className="text-white text-[30px] font-medium uppercase leading-10">entre em </span>
           <span className="text-white text-[30px] font-black uppercase leading-10">contato</span>
+          <br/>
           <span className="text-white text-[30px] font-medium uppercase leading-10"> com a gente</span>
-          </div>
-
-       
           
-        
-        </section>
+      
+          <div className="flex items-center  gap-5 pt-10">
+          <Image 
+            width={24} 
+            height={24}
+            className=""
+            src={Telefone}
+            alt="Telefone"
+          />
+            <a href="#" className="cursor-pointer">
+            <p className=" text-[16px] font-bold ">Ligue pra gente</p>
+            <p className="text-white text-[14px] font-light leading-6">(00) 99999-9999</p>
+            </a>
+            </div>
+            <div className="flex items-center mt-6 gap-5">
+          <Image 
+            width={24} 
+            height={24}
+            className=""
+            src={Email}
+            alt="Email"
+          />
+            <a href="mailto:zion@contato.com" className="cursor-pointer">
+            <p className="text-[16px] font-bold">Nosso E-mail</p>
+            <p className="text-white text-[14px] font-light leading-6">zion@contato.com</p>
+            </a>
+            </div>
+          </div>
+          
+
+          </footer>
       </main>
     </body>
   );
