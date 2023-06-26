@@ -27,59 +27,59 @@ import Email from "../assets/email.svg";
 export default function Home() {
   return (
     <body className="">
-      <header className="w-screen max-w-screen-2xl px-12  pt-20 pb-20 flex items-center justify-between absolute top-0 z-10 left-1/2 transform -translate-x-1/2">
+      <header className="w-screen max-w-screen-2xl px-20  py-14 flex gap-20  justify-between absolute top-0 z-10 left-1/2 transform -translate-x-1/2">
         <Image  src={ZionLogo} alt="Logo" />
-        <nav className=" pl-20 flex start justify-center gap-5">
+        <nav className="flex justify-between flex-1 ">
           <a
             href="./"
-            className="text-xl  text-white-500 leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300 "
+            className="text-md  text-white-500 leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300 "
           >
             Home
           </a>
           <a
             href="./"
-            className="text-xl leading-[130%]  px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300"
+            className="text-md leading-[130%]  px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300"
           >
             Sobre Nós
           </a>
           <a
             href="./"
-            className="text-xl leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Soluções
           </a>
           <a
             href="./"
-            className="text-xl leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Ferramentas
           </a>
           <a
             href="./"
-            className="text-xl leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Portfólio
           </a>
           <a
             href="./"
-            className="text-xl leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Depoimentos
           </a>
           <a
             href="./"
-            className="text-xl leading-[130%] px-[1.25rem]  uppercase flex text-center items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300 "
+            className="text-md leading-[130%] px-[1.25rem]  uppercase flex text-center items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300 "
           >
             Contato
           </a>
         </nav>
       </header>
-      <main className=" w-full max-w-screen-2xl px-12  flex flex-col justify-center items-center">
+      <main className=" w-full max-w-screen-2xl px-20  flex flex-col justify-center items-center">
         <section
           id="section-1"
           className=" h-screen relative  flex items-center"
         > 
-          <h1 className="text-[5.625rem]  max-w-[92rem] leading-[150%] uppercase">
+          <h1 className="text-6xl text-center  max-w-[92rem] leading-[150%] uppercase">
             <strong className="font-extrabold">Acelere o seu negócio</strong> com {" "}
             <span className="whitespace-nowrap">um e-commerce profissional</span>
           </h1>
@@ -109,13 +109,13 @@ export default function Home() {
         </div>
         <section id="section-2" className="h-screen  flex justify-between items-center mx-auto ">
         <Image
-              className="ml-[-6.5rem]"
+              className="ml-[-2rem] w-[100%] md:w-[50%]"
               src={ImgSec2}
               alt="Image"
             />
-          <div className="">
+          <div className="max-w-[40%]">
             <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10 ">Sobre Nós</h1>
-            <p className="font-normal leading-[150%] text-[1.563rem] mb-10">
+            <p className="font-normal leading-[150%] text-[1.563rem] md:text-lg mb-10">
               Buscamos a solução mais eficiente para o seu projeto, ajudamos
               empresas a iniciar o seu negócio, ou revolucionar ele através de
               sites e sistemas personalizados e de altíssima qualidade. Não
