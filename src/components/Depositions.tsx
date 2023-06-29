@@ -21,8 +21,8 @@ export function Depositions(data:DepositionsProps) {
               alt="Icon-1"
             />
      <div>
-      <p className="text-xl font-bold leading-[130%] pb-1 ">{data.title}</p>
-      <p className="text-xl leading-[150%]  pb-2">{data.text1}</p>
+      <p className="text-sm font-bold leading-[130%] pb-1 ">{data.title}</p>
+      <p className="text-[0.813rem] leading-[150%]  pb-2">{data.text1}</p>
       <Image
               className=""
               src={data.img2}
@@ -31,7 +31,7 @@ export function Depositions(data:DepositionsProps) {
      </div>
      </div>
      
-      <p className="text-xl leading-[150%] max-w-[30rem]">{data.text2}</p>
+      <p className="text-[1.063rem] leading-[150%] max-w-[30rem]">{data.text2}</p>
     </div>
 
   )

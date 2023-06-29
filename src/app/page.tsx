@@ -27,48 +27,48 @@ import Email from "../assets/email.svg";
 export default function Home() {
   return (
     <body className="">
-      <header className="w-screen max-w-screen-2xl px-20  py-14 flex gap-20  justify-between absolute top-0 z-10 left-1/2 transform -translate-x-1/2">
+      <header className="w-screen max-w-screen-2xl px-20  py-14 flex gap-16  justify-between absolute top-0 z-10 left-1/2 transform -translate-x-1/2">
         <Image  src={ZionLogo} alt="Logo" />
         <nav className="flex justify-between flex-1 ">
           <a
             href="./"
-            className="text-md  text-white-500 leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300 "
+            className="text-base  text-white-500 leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300 "
           >
             Home
           </a>
           <a
             href="./"
-            className="text-md leading-[130%]  px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300"
+            className="text-base leading-[130%]  px-[1.25rem] uppercase flex items-center whitespace-nowrap  hover:bg-purple-500 py-2  transition duration-300"
           >
             Sobre Nós
           </a>
           <a
             href="./"
-            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-base leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Soluções
           </a>
           <a
             href="./"
-            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-base leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Ferramentas
           </a>
           <a
             href="./"
-            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-base leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Portfólio
           </a>
           <a
             href="./"
-            className="text-md leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
+            className="text-base leading-[130%] px-[1.25rem] uppercase flex items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300"
           >
             Depoimentos
           </a>
           <a
             href="./"
-            className="text-md leading-[130%] px-[1.25rem]  uppercase flex text-center items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300 "
+            className="text-base leading-[130%] px-[1.25rem]  uppercase flex text-center items-center whitespace-nowrap   hover:bg-purple-500 py-2  transition duration-300 "
           >
             Contato
           </a>
@@ -79,7 +79,7 @@ export default function Home() {
           id="section-1"
           className=" h-screen relative  flex items-center"
         > 
-          <h1 className="text-6xl text-center  max-w-[92rem] leading-[150%] uppercase">
+          <h1 className="text-[4.25rem] text-center  max-w-[92rem] leading-[150%] uppercase">
             <strong className="font-extrabold">Acelere o seu negócio</strong> com {" "}
             <span className="whitespace-nowrap">um e-commerce profissional</span>
           </h1>
@@ -96,7 +96,7 @@ export default function Home() {
           />
         </a>
         <div className="flex items-center justify-center flex-col absolute bottom-2">
-          <p className="text-[1.563rem] leading-[150%] flex items-center justify-center ">
+          <p className="text-xl leading-[150%] flex items-center justify-center ">
             Maximize o Potencial do seu Negócio Online
           </p>
           <a href="./" className="Arrow">
@@ -109,13 +109,13 @@ export default function Home() {
         </div>
         <section id="section-2" className="h-screen  flex justify-between items-center mx-auto ">
         <Image
-              className="ml-[-2rem] w-[100%] md:w-[50%]"
+              className="ml-[-2rem] w-[100%] ]"
               src={ImgSec2}
               alt="Image"
             />
           <div className="max-w-[40%]">
-            <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10 ">Sobre Nós</h1>
-            <p className="font-normal leading-[150%] text-[1.563rem] md:text-lg mb-10">
+            <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] mb-10 ">Sobre Nós</h1>
+            <p className="font-normal leading-[150%] text-xl md:text-lg mb-10">
               Buscamos a solução mais eficiente para o seu projeto, ajudamos
               empresas a iniciar o seu negócio, ou revolucionar ele através de
               sites e sistemas personalizados e de altíssima qualidade. Não
@@ -124,16 +124,16 @@ export default function Home() {
              
    
             </p>
-            <strong className="leading-[150%]  text-[1.563rem]">
-              Acreditamos no equilíbrio entre forma, 
+            <strong className="leading-[150%]  text-xl">
+             Acreditamos no equilíbrio entre forma,<br></br>
               <span className="whitespace-nowrap"> função e tecnologia.</span>
              
             </strong>
           </div>
         </section>
     <section id="section-3" className="w-full max-w-screen-2xl  flex flex-col justify-center">
-    <h1 className="font-extrabold uppercase text-6xl leading-[130%]  pt-20  ">Soluções</h1>
-    <div className="w-full grid grid-cols-3 grid-rows-2 gap-16 pb-[7.5rem] pt-[7.5rem] ">
+    <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%]  pt-20  ">Soluções</h1>
+    <div className="w-full grid grid-cols-3 grid-rows-2 gap-[4.938rem] pt-[7.5rem] ">
     <ServiceCard img={Service}  title="Website"text="Criação, codificação e programação de sites e seus respectivos elementos e linguagens." /> 
     <ServiceCard img={LandinPage} title="Landing Page" text="Uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente. " />
     <ServiceCard img={Ecommerce} title="E-commerce" text="Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento e integração com a transportadora." />
@@ -144,10 +144,10 @@ export default function Home() {
    </section>
 
    
-      <section id="section-4" className="h-screen  flex justify-between items-center mx-auto mb-32">
+      <section id="section-4" className="h-screen  flex justify-between items-center mx-auto ">
      <div className="flex flex-col items-center">
-      <h1 className="font-extrabold uppercase text-6xl leading-[130%] pt-10 pb-16 items-center justify-center">Ferramentas</h1>
-        <p className="text-[1.563rem] max-w-[58rem] pb-20 text-center ">Utilizamos e indicamos as melhores ferramentas do mercado para potencializar o seu negócio e garantir resultados operacionais. Você não precisará pesquisar inúmeras ferramentas, cuidamos disso pra você!</p>
+      <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] pt-10 pb-16 items-center justify-center">Ferramentas</h1>
+        <p className="text-xl max-w-[49rem] pb-20 text-center ">Utilizamos e indicamos as melhores ferramentas do mercado para potencializar o seu negócio e garantir resultados operacionais. Você não precisará pesquisar inúmeras ferramentas, cuidamos disso pra você!</p>
        
       <div className="w-full flex gap-32 pt-items-center justify-center">
       <Image
@@ -174,12 +174,12 @@ export default function Home() {
       </div>
       </section>
       <section id="section-5" className="h-screen  mx-auto ">
-      <h1 className="font-extrabold uppercase text-6xl leading-[130%] pt-[4rem] pb-[8rem]  mb-10 flex items-center jus">Portfólio</h1>
+      <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] pt-[8rem] pb-[8rem]  flex items-center jus">Portfólio</h1>
       
         <div className=" flex justify-center  mx-auto">
         
           <div className=" mx-auto flex-1 ">
-            <h1 className="font-extrabold uppercase text-6xl leading-[130%] mb-10">cases de sucesso</h1>
+            <h1 className="font-bold uppercase  text-[2.813rem] leading-[130%] mb-10">cases de sucesso</h1>
             <p className="font-normal leading-[150%] text-[1.563rem] mb-10 max-w-[34rem]">
             Desenvolvemos projetos intuitivos e impactantes que elevam sua presença online. Transformamos sua visão em realidade com designs modernos e funcionais.
              
@@ -193,9 +193,9 @@ export default function Home() {
             />
           </div>
         </section>
-        <section id="section-6" className= "h-full w-full flex flex-col justify-center ">
-        <h1 className="font-extrabold uppercase text-6xl leading-[130%]  pb-12 ">Depoimentos</h1>
-    <div className=" grid grid-cols-3 grid-rows-1 gap-[4rem] pb-[7.5rem] pt-[7.5rem] ">
+        <section id="section-6" className= "h-full w-full flex flex-col justify-center pb-60 ">
+        <h1 className="font-extrabold uppercase text-[2.813rem]  leading-[130%]  pb-[12.5rem]">Depoimentos</h1>
+    <div className=" grid grid-cols-3 grid-rows-1 gap-[4rem] ">
     <Depositions img1={Perfil}  title="Danilo"text1="Cliente" img2={Star} text2="Super satisfeito com o trabalho de branding da Zion! A equipe conseguiu captar detalhes importantes da mensagem que queríamos entregar e apresentaram um resultado final assertivo, com criatividade e bom gosto! "/> 
     <Depositions img1={Perfil}  title="Carlos"text1="Cliente" img2={Star} text2="O trabalho da Zion foi fantástico, pegaram nossa ideia de uma despretensiosa landing page e nos entregaram um belo material, muito além do que esperávamos!"/> 
     <Depositions img1={Perfil}  title="DM Assessoria"text1="Cliente" img2={Star} text2="Super obrigado pelo trabalho que vocês fizeram com a minha empresa.
@@ -204,12 +204,11 @@ Sucesso!"/>
     
     </div>
         </section>
-        
-        
-          <footer className="w-full flex h-[400px] mb-24  gap-24">
+       </main>
+       <footer className="w-full flex h-[450px] mb-24  gap-24">
         <div className=" w-[300px]  relative ">
           <div className=" w-full absolute bottom-0">
-          <p className="text-[1.5rem] mb-5 font-bold leading-9 ">Nas redes sociais</p>
+          <p className="text-xl mb-5 font-bold leading-9 ">Nas redes sociais</p>
         <div className="flex gap-8 mb-12">
         <Image 
             width={24} 
@@ -233,21 +232,21 @@ Sucesso!"/>
             alt="Linkedin"
           />
           </div>
-          <button className="mb-12 bg-pink-500 rounded-md px-4 uppercase text-xs py-2">Entre em contato</button>
-          <p className="text-[15px] font-normal leading-3 mb-5">©2023 Zion</p>
-          <p className="text-[15px] font-normal leading-3">Todos os direitos reservados</p>
+          <button className="mb-12 bg-pink-500 rounded-md px-4 uppercase text-lg py-2">Entre em contato</button>
+          <p className="text-[0.938rem] font-normal leading-3 mb-5">©2023 Zion</p>
+          <p className="text-[0.938rem] font-normal leading-3">Todos os direitos reservados</p>
           </div>
         
          </div>
-         <div className=" w-full h-[300px] bg-pink-500 py-9 pl-20">
+         <div className=" w-full h-[320px] bg-pink-500 py-9 pl-20">
           
-          <span className="text-white text-[30px] font-medium uppercase leading-10">entre em </span>
-          <span className="text-white text-[30px] font-black uppercase leading-10">contato</span>
+          <span className="text-white text-xl font-medium uppercase leading-10">entre em </span>
+          <span className="text-white text-xl font-black uppercase leading-10">contato</span>
           <br/>
-          <span className="text-white text-[30px] font-medium uppercase leading-10"> com a gente</span>
+          <span className="text-white text-xl font-medium uppercase leading-10"> com a gente</span>
           
       
-          <div className="flex items-center  gap-5 pt-10">
+          <div className="flex items-center  gap-5 pt-10 ">
           <Image 
             width={24} 
             height={24}
@@ -256,8 +255,8 @@ Sucesso!"/>
             alt="Telefone"
           />
             <a href="#" className="cursor-pointer">
-            <p className=" text-[16px] font-bold ">Ligue pra gente</p>
-            <p className="text-white text-[14px] font-light leading-6">(00) 99999-9999</p>
+            <p className=" text-xl font-bold ">Ligue pra gente</p>
+            <p className="text-white text-xl font-light leading-6">(00) 99999-9999</p>
             </a>
             </div>
             <div className="flex items-center mt-6 gap-5">
@@ -269,15 +268,14 @@ Sucesso!"/>
             alt="Email"
           />
             <a href="mailto:zion@contato.com" className="cursor-pointer">
-            <p className="text-[16px] font-bold">Nosso E-mail</p>
-            <p className="text-white text-[14px] font-light leading-6">zion@contato.com</p>
+            <p className="text-xl font-bold">Nosso E-mail</p>
+            <p className="text-white text-xl font-light leading-6">zion@contato.com</p>
             </a>
             </div>
           </div>
           
 
           </footer>
-      </main>
     </body>
   );
 }
