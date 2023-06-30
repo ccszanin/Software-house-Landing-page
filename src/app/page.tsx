@@ -206,18 +206,18 @@ export default function Home() {
             Portfólio
           </h1>
 
-          <div className=" flex justify-center  mx-auto">
+          <div className=" flex   mx-auto">
             <div className=" mx-auto flex-1 ">
-              <h1 className="font-bold uppercase  text-[2.813rem] leading-[130%] mb-10">
-                cases de sucesso
+              <h1 className="font-bold uppercase  text-[2.813rem] leading-[130%]  mb-10">
+                cases <br></br>de sucesso
               </h1>
-              <p className="font-normal leading-[150%] text-[1.563rem] mb-10 max-w-[34rem]">
+              <p className="font-normal leading-[150%] text-[1.563rem] mb-10 max-w-[27rem]">
                 Desenvolvemos projetos intuitivos e impactantes que elevam sua
                 presença online. Transformamos sua visão em realidade com
                 designs modernos e funcionais.
               </p>
             </div>
-            <Image className=" mr-[-9rem] w-[70%]" src={Cases} alt="Image" />
+            <Image className=" mr-[-3rem] w-[70%] mt-[-50px]" src={Cases} alt="Image" />
           </div>
         </section>
         <section
@@ -267,12 +267,12 @@ Sucesso!"
           </div>
           </div>
           <div className="">
-          <Image className=" " src={ImgForms} alt="Image" />
+          <Image className=" ml-[3.125rem] mt-24" src={ImgForms} alt="Image" />
           </div>
           
         </section>
 
-        <footer className="w-full flex h-[450px] mb-24  gap-24 ">
+        <footer className="w-full flex h-[450px] mb-24  gap-24 pt-24 ">
           <div className=" w-[300px]  relative ">
             <div className=" absolute bottom-0">
               <p className="text-xl mb-5 font-bold leading-9 ">
