@@ -8,15 +8,13 @@ import { Portfolio } from "@/components/Portfolio";
 import { Depositions1 } from "@/components/Depositions1";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-
 import { Nav } from "@/components/Nav";
 
-//import { useState } from "react";
 
 export default function Home() {
-  //const[menuIsVisible, setMenuIsVisible]=useState(true)
   return (
     <body className="">
+     
       <Header />
       <main className=" w-full max-w-screen-2xl px-20  flex flex-col   justify-center items-center">
         <Section />
@@ -27,8 +25,8 @@ export default function Home() {
         <Depositions1 />
         <Contact />
         <Footer />
-        <Nav />
       </main>
+     
     </body>
   );
 }

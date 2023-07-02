@@ -5,7 +5,7 @@ import Cases from "../assets/cases.png";
 export function Portfolio() {
   return(
 <>
-<section id="section-5" className="h-screen  mx-auto ">
+<section id="section-5" className="h-full  mx-auto ">
           <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] pt-[8rem] pb-[8rem]  flex items-center jus">
             Portfólio
           </h1>

@@ -7,7 +7,7 @@ export function  Contact () {
   return(
 <section 
         id="section-7" 
-        className="h-screen  flex justify-between mx-auto "
+        className="h-full flex justify-between mx-auto pt-32"
         >
           <div className="">
           <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] mb-10">

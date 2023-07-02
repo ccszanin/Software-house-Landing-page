@@ -9,9 +9,9 @@ import Email from "../assets/email.svg";
 
 export function Footer() {
   return(
-    <footer className="w-full flex h-[450px] mb-24  gap-24 pt-24 ">
-    <div className=" w-[300px]  relative ">
-      <div className=" absolute bottom-0">
+    <footer className="w-full flex h-[600px] mb-24  gap-24 pt-[12.188rem] ">
+    <div className="  relative w-full pt-[11.25rem]">
+      <div className=" absolute  w-full">
         <p className="text-xl mb-5 font-bold leading-9 ">
           Nas redes sociais
         </p>
@@ -50,7 +50,7 @@ export function Footer() {
       </div>
     </div>
 
-    <div className="  h-[320px]  flex bg-pink-500 py-9 pl-20 absolute z-1 ml-[18.75rem]">
+    <div className="  h-[343px] flex bg-pink-500 py-[3.375rem] pl-[8.25rem] absolute z-1 right-0  flex-1 w-[70%] ">
       <div>
         <span className=" text-white text-xl font-medium uppercase leading-10">
           entre em{" "}
@@ -97,5 +97,5 @@ export function Footer() {
       </div>
     </div>
   </footer>
-
+ 
   )}
