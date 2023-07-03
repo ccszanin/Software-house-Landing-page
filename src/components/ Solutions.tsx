@@ -21,11 +21,11 @@ export function Solutions() {
           </h1>
           <div className="w-full grid grid-cols-3 grid-rows-2 gap-[4.938rem] pt-[7.5rem] ">
             <ServiceCard
-              img1={Service}
+              img1="website"
               title="Website"
               text="Criação, codificação e programação de sites e seus respectivos elementos e linguagens."
             /> 
-          <ServiceCard
+          {/* <ServiceCard
             img1={LandinPage}
               title="Landing Page"
               text="Uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente. "
@@ -49,7 +49,7 @@ export function Solutions() {
               img1={Integracao}
               title="Integração"
               text="Integramos com os principais CRMs, ERPs, sistemas e plataformas de pagamentos digitais, para automatizar seus processos e economizar tempo no fluxo de trabalho. "
-            /> 
+            />  */}
           </div>
         </section>
 

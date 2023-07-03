@@ -1,4 +1,5 @@
 "use client"
+import axios from 'axios'
 import { useForm, SubmitHandler } from "react-hook-form"
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,7 +23,35 @@ export function ContactForm() {
     watch,
     formState: { errors },
   } = useForm<Inputs>()
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
+  const onSubmit: SubmitHandler<Inputs> = async (data) => {
+      try {
+        const headers = {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer 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`,
+        };
+
+        const data = {
+          "personalizations": [
+            {
+              "to": [{"email": "gabrielzanin150@gmail.com"}]}],
+              "from": {"email": "carlacs"},
+              "subject": "Sending with SendGrid is Fun",
+              "content": [{"type": "text/plain", 
+              "value": "and easy to do anywhere, even with cURL"
+            }
+          ]
+        }
+  
+        const response = await axios.post('https://api.sendgrid.com/v3/mail/send', data, { headers });
+
+        return response.data
+  
+        // Lógica para lidar com a resposta da requisição...
+      } catch (error) {
+        console.log(error)
+      }
+
+  }
 
 
   console.log(watch("name")) // watch input value by passing the name of it
