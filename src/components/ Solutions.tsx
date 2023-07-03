@@ -25,31 +25,31 @@ export function Solutions() {
               title="Website"
               text="Criação, codificação e programação de sites e seus respectivos elementos e linguagens."
             /> 
-          {/* <ServiceCard
-            img1={LandinPage}
+           <ServiceCard
+              img1="landingpage"
               title="Landing Page"
               text="Uma página que conta com todos os elementos voltados à conversão, do visitante ao Lead ou da oportunidade ao cliente. "
             />
             <ServiceCard
-              img1={Ecommerce}
+              img1="ecommerce"
               title="E-commerce"
               text="Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento e integração com a transportadora."
             />
             <ServiceCard
-              img1={App}
+              img1="app"
               title="Aplicativo"
               text="Software desenvolvido para ser instalado em um dispositivo eletrônico móvel, como um telefone celular, smartphone, smart tv e tablets."
             />
             <ServiceCard
-              img1={Manutencao}
+              img1="manutencao"
               title="Manutenção"
               text="Precisa alterar ou atualizar o seu site? Conte com a nossa manutenção. "
             />
             <ServiceCard
-              img1={Integracao}
+              img1="integracao"
               title="Integração"
               text="Integramos com os principais CRMs, ERPs, sistemas e plataformas de pagamentos digitais, para automatizar seus processos e economizar tempo no fluxo de trabalho. "
-            />  */}
+            />  
           </div>
         </section>
 
