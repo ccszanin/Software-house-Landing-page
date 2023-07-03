@@ -27,9 +27,8 @@ export function ContactForm() {
       try {
         const headers = {
           'Content-Type': 'application/json',
-          Authorization: `Bearer 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`,
+          Authorization: ``,
         };
-
         const data = {
           "personalizations": [
             {
