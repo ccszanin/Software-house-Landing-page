@@ -19,7 +19,7 @@ export function Solutions() {
           <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%]">
             Soluções
           </h1>
-          <div className="w-full grid grid-cols-3 grid-rows-2 gap-[4.938rem] pt-[7.5rem] ">
+          <div className="w-full grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-[4.938rem] pt-[7.5rem] ">
             <ServiceCard
               img1="website"
               title="Website"

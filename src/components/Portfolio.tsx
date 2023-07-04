@@ -10,7 +10,7 @@ export function Portfolio() {
             Portfólio
           </h1>
 
-          <div className=" flex   mx-auto">
+          <div className="flex flex-col md:flex-row mx-auto">
             <div className=" mx-auto flex-1 ">
               <h1 className="font-bold uppercase  text-[2.813rem] leading-[130%]  mb-10">
                 cases <br></br>de sucesso
@@ -21,7 +21,7 @@ export function Portfolio() {
                 designs modernos e funcionais.
               </p>
             </div>
-            <Image className=" mr-[-3rem] w-[70%] mt-[-50px]" src={Cases} alt="Image" />
+            <Image className=" relative mr-[-3rem] w-[70%] mt-[-50px]" src={Cases} alt="Image" />
           </div>
         </section>
 </>

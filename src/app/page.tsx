@@ -9,6 +9,7 @@ import { Depositions1 } from "@/components/Depositions1";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Nav } from "@/components/Nav";
+import { HeaderMolie } from "@/components/HeaderMobile";
 
 
 export default function Home() {
@@ -16,15 +17,16 @@ export default function Home() {
     <body className="">
      
       <Header />
-      <main className=" w-full max-w-screen-2xl px-20  flex flex-col   justify-center items-center">
-        <Section />
+      <HeaderMolie />
+      <main className="w-screen max-w-[92rem] my-0 mx-auto md:px-0 px-6">
+        {/* <Section />
         <About />
         <Solutions />
         <Tools />
         <Portfolio />
         <Depositions1 />
         <Contact />
-        <Footer />
+        <Footer /> */}
       </main>
      
     </body>

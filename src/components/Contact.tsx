@@ -7,7 +7,7 @@ export function  Contact () {
   return(
 <section 
         id="section-7" 
-        className="h-full flex justify-between mx-auto pt-32"
+        className="h-full flex-col md:flex-row justify-between mx-auto pt-32"
         >
           <div className="">
           <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] mb-10">
@@ -18,7 +18,7 @@ export function  Contact () {
           </div>
           </div>
           <div className="">
-          <Image className=" ml-[3.125rem] mt-24" src={ImgForms} alt="Image" />
+          <Image className="ml-0 md:ml-[3.125rem] mt-24" src={ImgForms} alt="Image" />
           </div>
           
         </section>

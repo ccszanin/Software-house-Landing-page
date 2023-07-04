@@ -24,7 +24,7 @@ export function Tools() {
               pra você!
             </p>
 
-            <div className="w-full flex gap-32 pt-items-center justify-center">
+            <div className="w-full flex flex-col md:flex-row gap-32 pt-items-center justify-center">
               <Image className="" src={Vtex} alt="Image" />
               <Image className="" src={Shopify} alt="Image" />
               <Image className="" src={Bling} alt="Image" />

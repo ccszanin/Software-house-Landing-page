@@ -5,7 +5,7 @@ import ZionLogo from "../assets/logo.svg";
 
 export function Header() {
   return(
-    <header className="w-screen max-w-screen-2xl px-20  py-14 flex gap-16  justify-between absolute top-0 z-10 left-1/2 transform -translate-x-1/2">
+    <header className="w-screen max-w-screen-2xl px-20  py-14 object-none hidden md:flex gap-16  justify-between absolute top-0 z-10 left-1/2 transform -translate-x-1/2">
     <Image src={ZionLogo} alt="Logo" />
     <nav className="flex justify-between  flex-1 ">
       <a
