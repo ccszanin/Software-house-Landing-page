@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import ZionLogo from "../assets/logo.svg";
+import ZionLogo from "../assets/logoMobile.svg";
 import WhiteZionLogo from "../assets/whiteLogo.svg";
 import BurguerMenu from '../assets/burgerIcon.svg'
 import Close from '../assets/close.svg'
@@ -10,7 +10,7 @@ import Link from "next/link";
 export function HeaderMolie() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="flex w-full md:hidden py-10 px-10 sm:px-16 justify-between">
+    <div className="flex max-w-screen-sm w-full md:hidden py-10  sm:px-16 justify-between">
       <Image alt="logo image" src={ZionLogo} width={64} height={20}/>
 
       <button onClick={() => setIsOpen(!isOpen)}>

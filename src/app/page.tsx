@@ -8,25 +8,25 @@ import { Portfolio } from "@/components/Portfolio";
 import { Depositions1 } from "@/components/Depositions1";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-import { Nav } from "@/components/Nav";
 import { HeaderMolie } from "@/components/HeaderMobile";
 
 
 export default function Home() {
   return (
-    <body className="">
+    <body className="overflow-x-hidden">
      
       <Header />
       <HeaderMolie />
-      <main className="w-screen max-w-[92rem] my-0 mx-auto md:px-0 px-6">
-        {/* <Section />
-        <About />
-        <Solutions />
+      
+      <main className=" md:max-w-screen-2xl md:px-20 my-0 mx-auto max-w-screen-sm  ">
+      {/* <Section /> 
+       <About />  */}
+        {/* <Solutions /> */}
         <Tools />
-        <Portfolio />
+        {/* <Portfolio />
         <Depositions1 />
         <Contact />
-        <Footer /> */}
+        <Footer />     */}
       </main>
      
     </body>

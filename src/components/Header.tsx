@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ZionLogo from "../assets/logo.svg";
+import ZionLogo from "../assets/logoDesktop.svg";
 
 
 export function Header() {

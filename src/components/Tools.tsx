@@ -11,20 +11,20 @@ export function Tools() {
 
 <section
           id="section-4"
-          className="h-screen  flex justify-between items-center mx-auto "
+          className="md:h-screen w-full mx-auto "
         >
-          <div className="flex flex-col items-center">
-            <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%] pt-10 pb-16 items-center justify-center">
+          <div className="flex h-full flex-col items-center justify-center">
+            <h1 className="font-extrabold uppercase md:text-[2.813rem] text-[1.563rem] leading-[130%] md:pt-10 md:pb-16 items-center justify-center">
               Ferramentas
             </h1>
-            <p className="text-xl max-w-[49rem] pb-20 text-center ">
+            <p className="md:text-xl text-xs max-w-[49rem] md:pb-20 text-center ">
               Utilizamos e indicamos as melhores ferramentas do mercado para
               potencializar o seu negócio e garantir resultados operacionais.
               Você não precisará pesquisar inúmeras ferramentas, cuidamos disso
               pra você!
             </p>
 
-            <div className="w-full flex flex-col md:flex-row gap-32 pt-items-center justify-center">
+            <div className=" flex flex-col md:flex-row gap-32 pt-items-center justify-center">
               <Image className="" src={Vtex} alt="Image" />
               <Image className="" src={Shopify} alt="Image" />
               <Image className="" src={Bling} alt="Image" />

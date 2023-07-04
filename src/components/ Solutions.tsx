@@ -14,12 +14,12 @@ export function Solutions() {
 <>
 <section
           id="section-3"
-          className="w-full max-w-screen-2xl  flex flex-col justify-center pt-40"
+          className="md:w-full max-w-screen-2xl  flex flex-col justify-center md:pt-40"
         >
-          <h1 className="font-extrabold uppercase text-[2.813rem] leading-[130%]">
+          <h1 className="font-extrabold uppercase text-[1.563rem] md:text-[2.813rem] leading-[130%] md:text-left text-center">
             Soluções
           </h1>
-          <div className="w-full grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-[4.938rem] pt-[7.5rem] ">
+          <div className="md:w-full grid  md:grid-cols-3 md:grid-rows-2 grid-cols-6 grid-rows-1 md:gap-[4.938rem] md:pt-[7.5rem] ">
             <ServiceCard
               img1="website"
               title="Website"
