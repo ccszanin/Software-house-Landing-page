@@ -22,11 +22,11 @@ export default function Home() {
       {/* <Section /> 
        <About />  */}
         {/* <Solutions /> */}
-        <Tools />
-        {/* <Portfolio />
-        <Depositions1 />
+        {/* <Tools /> */}
+        {/* <Portfolio /> 
+        <Depositions1 /> */}
         <Contact />
-        <Footer />     */}
+        {/* <Footer />      */}
       </main>
      
     </body>
