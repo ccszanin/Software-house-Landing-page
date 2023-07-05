@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
     from: 'zionsoftwarehouse.dev@gmail.com',
     subject: subject,
     text: text,
-    // html: html
+    html: html
   }
   try {
     await sgMail.send(msg);
