@@ -14,21 +14,25 @@ import { FooterMobile } from "@/components/FooterMobile";
 
 export default function Home() {
   return (
+    <>
     <body className="overflow-x-hidden">
      
       <Header />
       <HeaderMobile />
-      <main className=" md:max-w-screen-2xl md:px-20 my-0 mx-auto max-w-screen-sm  ">
-        {/* <Section /> 
-       <About />  
-         <Solutions /> 
-        <Tools /> 
-         <Portfolio />
-        <Depositions1 /> 
-        <Contact /> */}
-        <Footer />    
-        <FooterMobile /> 
+      <main className=" lg:max-w-screen-2xl lg:px-20 my-0 mx-auto  md:max-w-screen-lg md:px-10 px-[1.5rem] ">
+          <Section />   
+       <About />    
+       {/* <Solutions />  */}
+         <Tools /> 
+         <Portfolio />  
+        {/* <Depositions1 /> 
+        <Contact />  */}
+         <Footer />     
+        
       </main>
+      {/* <FooterMobile />  */}
     </body>
+   
+    </>
   );
 }

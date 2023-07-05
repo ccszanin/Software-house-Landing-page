@@ -10,7 +10,7 @@ import Link from "next/link";
 export function HeaderMobile() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="flex max-w-screen-sm w-full md:hidden py-10  sm:px-16 justify-between">
+    <div className="flex m w-full lg:hidden py-10  sm:px-16 justify-between">
       <Image alt="logo image" src={ZionLogo} width={64} height={20}/>
 
       <button onClick={() => setIsOpen(!isOpen)}>

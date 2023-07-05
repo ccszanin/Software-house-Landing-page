@@ -9,7 +9,7 @@ import Email from "../assets/email.svg";
 
 export function Footer() {
   return(
-    <footer className=" hidden md:flex  w-full  h-[600px] mb-24  gap-24 pt-[12.188rem] ">
+    <footer className=" hidden lg:flex  w-full  h-[600px] mb-24  gap-24 pt-[12.188rem] ">
     <div className="  relative w-full pt-[11.25rem]">
       <div className=" absolute  w-full">
         <p className="text-xl mb-5 font-bold leading-9 ">
