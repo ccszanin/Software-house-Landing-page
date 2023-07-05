@@ -7,9 +7,9 @@ import Telefone from "../assets/telefone.svg";
 import Email from "../assets/email.svg";
 
 
-export function Footer() {
+export function FooterMobile() {
   return(
-    <footer className=" hidden md:flex  w-full  h-[600px] mb-24  gap-24 pt-[12.188rem] ">
+    <footer className=" md:hidden flex bg-pink-500">
     <div className="  relative w-full pt-[11.25rem]">
       <div className=" absolute  w-full">
         <p className="text-xl mb-5 font-bold leading-9 ">

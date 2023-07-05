@@ -8,7 +8,8 @@ import { Portfolio } from "@/components/Portfolio";
 import { Depositions1 } from "@/components/Depositions1";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-import { HeaderMolie } from "@/components/HeaderMobile";
+import { HeaderMobile } from "@/components/HeaderMobile";
+import { FooterMobile } from "@/components/FooterMobile";
 
 
 export default function Home() {
@@ -16,17 +17,18 @@ export default function Home() {
     <body className="overflow-x-hidden">
      
       <Header />
-      <HeaderMolie />
+      <HeaderMobile />
       
       <main className=" md:max-w-screen-2xl md:px-20 my-0 mx-auto max-w-screen-sm  ">
-      {/* <Section /> 
-       <About />  */}
-        {/* <Solutions /> */}
-        <Tools />
-        {/* <Portfolio />
-        <Depositions1 />
-        <Contact />
-        <Footer />     */}
+        {/* <Section /> 
+       <About />  
+         <Solutions /> 
+        <Tools /> 
+         <Portfolio />
+        <Depositions1 /> 
+        <Contact /> */}
+        <Footer />    
+        <FooterMobile /> 
       </main>
      
     </body>

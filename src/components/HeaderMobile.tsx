@@ -7,7 +7,7 @@ import Close from '../assets/close.svg'
 import { useState } from "react";
 import Link from "next/link";
 
-export function HeaderMolie() {
+export function HeaderMobile() {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="flex max-w-screen-sm w-full md:hidden py-10  sm:px-16 justify-between">

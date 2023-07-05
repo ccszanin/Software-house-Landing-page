@@ -7,7 +7,7 @@ export function About() {
     <>
   <section
           id="section-2"
-          className="h-full flex   flex-col-reverse  md:flex-row justify-between items-center mx-auto pt-24"
+          className="h-full flex   flex-col-reverse  md:flex-row justify-between items-center mx-auto mt-24"
         >
           <Image className="md:ml-[-2rem] md:w-[100%] md:h-[43.938rem] h-[21.875rem] w-[28.75rem]" src={ImgSec2} alt="Image" />
           <div className="md:max-w-[36%] ">
