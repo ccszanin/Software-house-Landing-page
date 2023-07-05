@@ -18,7 +18,6 @@ export default function Home() {
      
       <Header />
       <HeaderMobile />
-      
       <main className=" md:max-w-screen-2xl md:px-20 my-0 mx-auto max-w-screen-sm  ">
         {/* <Section /> 
        <About />  
@@ -30,7 +29,6 @@ export default function Home() {
         <Footer />    
         <FooterMobile /> 
       </main>
-     
     </body>
   );
 }

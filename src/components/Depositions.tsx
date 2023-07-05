@@ -31,7 +31,5 @@ export function Depositions(data: DepositionsProps) {
 
       <p className="text-[1.063rem] leading-[150%] max-w-[30rem]">{data.text2}</p>
     </div>
-
   )
-
 }
